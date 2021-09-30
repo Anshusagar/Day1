@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="Navbar">
+        <li onClick="assign('index.html')">Registration Form</li>
+        <li onClick="assign('Todo.html')">TODO</li>
+        <li onClick="assign('ResReq.html')">RESREQ API</li>
+    </div>
+    <div class="container">
+        <div>
+            <h1 style="text-align:center">Capgemini Registration</h> Form</h1>
+        </div>
+        <div class="form-horizontal">
+            <form action="index.html" method="GET" id="form-data">
+                <div class="form">
+                    <label for='fname'>First Name : </label><input class="data" id="fname" type="text"
+                        placeholder="First Name">
+                </div>
+                <div class="form">
+                    <label for='lname'>Last Name : </label><input class="data" id="lname" type="text"
+                        placeholder="Last Name">
+                </div>
+                <div class="form">
+                    <label for='email'>Email : </label><input class="data" id="email" type="email" placeholder="Email">
+                </div>
+                <div class="form">
+                    <label for='number'>Mobile Number : </label><input class="data" id="number" type="tel"
+                        placeholder="Mobile Number">
+                </div>
+                <div class="form">
+                    <button class="big-button" type="submit" id="btn">SUBMIT</button>
+
+                    <button class="big-button" id="reset" type="reset">RESET</button>
+                    <button class="big-button" id="hide">HIDE DETAILS</button>
+                </div>
+
+
+        </div>
+        </form>
+    </div>
+
+
+    <div id="result">
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
