@@ -1,10 +1,10 @@
 function assign(input) {
   window.location.assign(`./${input}`);
 }
-
 let text = document.querySelector('#textBox');
 let addBtn = document.querySelector('#addItem');
 let lists = document.querySelector('#list');
+
 addBtn.addEventListener('click', () => {
   let li = document.createElement('li');
   li.textContent = text.value;

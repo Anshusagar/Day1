@@ -182,3 +182,12 @@ button.big-button:active::before {
   border:1px solid black;
   align-items: center;
 }
+
+.done{
+  text-decoration:line-through;
+   opacity:0.5 ;
+}
+.check{
+ color:red;
+ font-style:bold;
+}
