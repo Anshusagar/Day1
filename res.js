@@ -11,7 +11,7 @@ document.getElementById('btn').addEventListener('click', async function () {
   payload = response.data;
   console.log(payload);
   let html="";
-
+  
   for (let i = 0; i < payload.length; i++) {
     html += `<div class="persons">
             <img src="${payload[i].avatar}">
