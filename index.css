@@ -174,20 +174,25 @@ button.big-button:active::before {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
 }
 .persons {
   width: 10%;
   height: 10%;
-  border:1px solid black;
+  border: 1px solid black;
   align-items: center;
 }
 
-.done{
-  text-decoration:line-through;
-   opacity:0.5 ;
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
-.check{
- color:red;
- font-style:bold;
+.check {
+  color: red;
+  font-style: bold;
+}
+#todoBox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
 }
